@@ -1,4 +1,4 @@
-# Getting Started
+# Basketball Scoreboard Project
 Perubahan line satu di readme
 Install the dependencies and run the project
 ```
