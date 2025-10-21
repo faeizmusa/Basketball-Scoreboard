@@ -1,73 +1,72 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
-@font-face{
-    font-family: "Cursed Timer";
-    src:url("cursedtimer.ttf");
+@font-face {
+  font-family: 'Cursed Timer';
+  src: url('cursedtimer.ttf');
 }
-.section{
-    background-color:red;
-    background-color:#1B244A;
-    width:575px;
-    height:385px
+.section {
+  background-color: red;
+  background-color: #1b244a;
+  width: 575px;
+  height: 385px;
 }
 .container {
-    display: flex;
-    justify-content: space-around;
-    
-    /* align-items: center; */
-    
+  display: flex;
+  justify-content: space-around;
+
+  /* align-items: center; */
 }
 
-h2{
-    color:#F94F6D;
-    font-size: 90px;
-    font-family: "Cursed Timer";
+h2 {
+  color: gold;
+  font-size: 90px;
+  font-family: 'Cursed Timer';
 }
 
-h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:white;
-    font-size:40px;
-    text-align:center;
-    margin-top:68px;
-    margin-bottom: 21px;
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 68px;
+  margin-bottom: 21px;
 }
 
-.scorecard{
-    width:155px;
-    height:120px;
-    background-color: #080001;
-    /* margin-top:21; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.scorecard {
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  /* margin-top:21; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.counter-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top:26px;
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
 }
 
-.counter{
-    background-color: transparent;
-    border:2px solid #9AABD8;
-    border-radius:5px;
-    width:45px;
-    height:45px;
-    font-size:18px;
-    color:#9AABD8;
-    font-family: "Cursed Timer";
+.counter {
+  background-color: transparent;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  color: #9aabd8;
+  font-family: 'Cursed Timer';
 }
 
-#reset-btn{
-   background-color: transparent;
-    border:2px solid #9AABD8;
-    border-radius:5px;
-    font-size:18px;
-    color:#9AABD8;
-    font-family: "Cursed Timer";
-    padding:5px;
+#reset-btn {
+  background-color: transparent;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #9aabd8;
+  font-family: 'Cursed Timer';
+  padding: 5px;
 }
